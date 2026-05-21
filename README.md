@@ -202,9 +202,9 @@ Start by creating the game object blueprint file:
 
 1. <kbd>Right click</kbd> the folder "main" in the *Assets* view and select <kbd>New ▸ Game Object</kbd>. Name this file "rocket" (full name "rocket.go").
 
-2. Open "sprites.atlas" and create a new animation group (right click the root node and select <kbd>Add Animation Group</kbd>). Name the animation "rocket".
+2. Open "sprites.atlas" and create a new animation (right click the root node and select <kbd>Add Animation</kbd>). Name the animation "rocket".
 
-3. Add the three rocket images (in "/assets/buildings/turret-rocket") to the animation group and set the *Fps* property to a value that makes the animation look good when you preview.
+3. Add the three rocket images (in "/assets/buildings/turret-rocket") to the animation and set the *Fps* property to a value that makes the animation look good when you preview.
 
     ![rocket animation](doc/rocket_animation.jpg)
 
@@ -348,9 +348,9 @@ When a rocket is spawned, it is currently not oriented in the player's direction
 
 The rockets should explode a short while after they are fired:
 
-1. Open "sprites.atlas" and create a new animation group (right click the root node and select <kbd>Add Animation Group</kbd>). Call the animation "explosion".
+1. Open "sprites.atlas" and create a new animation (right click the root node and select <kbd>Add Animation</kbd>). Call the animation "explosion".
 
-2. Add the nine explosion images in "/assets/fx/explosion" to the animation group and set the *Fps* property to a value that makes the animation look good when you preview. Also make sure that this animation has the *Playback* property set to `Once Forward`.
+2. Add the nine explosion images in "/assets/fx/explosion" to the animation and set the *Fps* property to a value that makes the animation look good when you preview. Also make sure that this animation has the *Playback* property set to `Once Forward`.
 
     ![explosion animation](doc/explosion_animation.jpg)
 
@@ -411,7 +411,7 @@ This is definitely getting somewhere! Now you just need something to fire the ro
 
 1. <kbd>Right click</kbd> the folder "main" in the *Assets* view and select <kbd>New ▸ Game Object</kbd>. Name this file "tank" (full name "tank.go"). Like the rocket game object, this is a file that can be used as a *blueprint* when creating actual tank game objects.
 
-2. Open "sprites.atlas" and create a new animation group (right click the root node and select <kbd>Add Animation Group</kbd>). Name the animation "tank-down".
+2. Open "sprites.atlas" and create a new animation (right click the root node and select <kbd>Add Animation</kbd>). Name the animation "tank-down".
 
 3. Add the two downwards facing images in "/assets/units/tank/down" to the animation and set its *Fps* value to something that looks good.
 
